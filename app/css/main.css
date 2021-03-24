@@ -1,5 +1,5 @@
 html, body {
-  font-family: 'Roboto', sans-serif;
+  font-family: arial, Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #1f2023;
@@ -17,9 +17,9 @@ html, body {
   visibility: none;
 }
 
-.container {
-  /* background-color: #d3d3d3; */
-}
+/* .container {
+  background-color: #d3d3d3;
+} */
 
 
 /* -------------------------------- */
@@ -28,7 +28,7 @@ html, body {
 header {
   display: block;
   text-decoration: none;
-  padding: 6px;
+  padding: 6px 8px;
   /* background-color: #ff0101; */
 }
 
@@ -44,10 +44,14 @@ nav.container .nav-link a {
   color: #1f2023;
   font-weight: 400;
   line-height: 1.5rem;
-  text-decoration: underline;
-  cursor: pointer;
+  text-decoration: none;
   padding-left: 15px;
 }
+
+.nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+} 
 
 nav.container div:nth-child(2) {
   padding-right: 15px;
@@ -57,13 +61,18 @@ nav.container div:nth-child(2) {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #F0F0F0;
   height: 40px;
   width: 40px;
   line-height: 1.5rem;
 
   border-radius: 999px;
 }
+
+.icon-nav-dropdown:hover {
+  background: #F0F0F0;
+  cursor: pointer;
+}
+
 .menu {
   padding: 4px;
 }
