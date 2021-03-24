@@ -1,0 +1,25 @@
+#google-apps {
+  display: none;
+  visibility: none;
+}
+
+#account {
+  display: none;
+  visibility: none;
+}
+
+
+nav.container {
+  box-sizing: border-box;
+  background: lightgrey;
+}
+
+main.container {
+  box-sizing: border-box;
+  background: lightgrey;
+}
+
+footer.container {
+  box-sizing: border-box;
+  background: lightgrey;
+}

@@ -9,11 +9,11 @@
 	<title>Google</title>
 </head>
 <body>
-	
-				<!-- NAVBAR --> 
+
+				<!-- NAVBAR -->
 
 	<header>
-		<nav>
+		<nav class="container">
 			<ul>
 				<li><a href="#">Gmail</a></li>
 
@@ -25,38 +25,38 @@
 						<img src="./app/assets/img" >
 					</div>
 				<!-- ----------------------------- -->
-					<ul>
-				<!-- CONTENT --> 
-						<il>
-							<div id="apps" >
-		
+					<ul id="google-apps">
+				<!-- CONTENT -->
+						<li>
+							<div>
+
 								<div class="app-dropdown" >
-	
+
 									<div class="nav-app-dropdown">
 										<img src="./app/assets/img/" alt="" >
 										<p>Accounts</p>
 									</div>
-									
+
 									<div class="nav-app-dropdown">
 										<img src="./app/assets/img/" alt="" >
-										<p>Accounts</p>
+										<p>Search</p>
 									</div>
-		
+
 									<div class="nav-app-dropdown">
 										<img src="./app/assets/img/" alt="" >
-										<p>Accounts</p>
+										<p>Maps</p>
 									</div>
-									
+
 								</div>
-				<!-- FOOTER --> 
+				<!-- FOOTER -->
 								<footer>
-									<div >
+									<div>
 										<a href="#">More from Google</a>
 									</div>
 								</footer>
-		
+
 							</div>
-						</il>
+						</li>
 					</ul>
 
 				</li>
@@ -67,63 +67,67 @@
 						<img src="./app/assets/img" >
 					</div>
 				<!-- ----------------------------- -->
-					<div id="account">
-				<!-- HEADER --> 
-						<header class="main-account" >
+					<ul id="account">
+						<li>
 							<div>
-								<img src="./app/assets/img/" >
-								<span id="user-profile-picture-setting">
-
-								</span>
-							</div>
-							<h3>Habib Osaye</h3>
-							<p>taiwo.osaye@gmail.com</p>
-							<span class="btn btn-round" >Manage your Google Account</span>
-						</header>
-				<!-- CONTENTS --> 
-						<div class="other-accounts" >
-							<ul>
-								<li>
-									<a>
-										<img src="./app/assets/img/" >
-										<div>
-											<h5>Habib Osaye</h5>
-											<p>example@gmail.com</p>
-										</div>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<img src="./app/assets/img/" >
-										<div>
-											<h5>Business name</h5>
-											<p>business@gmail.com</p>
-										</div>
-									</a>
-								</li>
-							</ul>
-							<li>
-								<a>
-									<img src="./app/assets/img/" >
+				<!-- HEADER -->
+								<header class="main-account" >
 									<div>
-										<h5>Add another account</h5>
-									</div>
-								</a>
-							</li>
-						</div>
+										<img src="./app/assets/img/" >
+										<span id="user-profile-picture-setting">
 
-						<div class="logout-accounts">
-							<a>
-								<span class="btn btn-square" >Sign out of all accounts</span>
-							</a>
-						</div>
-				<!-- FOOTER --> 
-						<footer>
-							<span>Privacy Policy</span>
-							<span></span>
-							<span>Terms of Service</span>
-						<footer>
-					</div>
+										</span>
+									</div>
+									<h3>Habib Osaye</h3>
+									<p>taiwo.osaye@gmail.com</p>
+									<span class="btn btn-round" >Manage your Google Account</span>
+								</header>
+				<!-- CONTENTS -->
+								<div class="other-accounts" >
+									<ul>
+										<li>
+											<a>
+												<img src="./app/assets/img/" >
+												<div>
+													<h5>Habib Osaye</h5>
+													<p>example@gmail.com</p>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="./app/assets/img/" >
+												<div>
+													<h5>Business name</h5>
+													<p>business@gmail.com</p>
+												</div>
+											</a>
+										</li>
+									</ul>
+									<li>
+										<a>
+											<img src="./app/assets/img/" >
+											<div>
+												<h5>Add another account</h5>
+											</div>
+										</a>
+									</li>
+								</div>
+
+								<div class="logout-accounts">
+									<a>
+										<span class="btn btn-square" >Sign out of all accounts</span>
+									</a>
+								</div>
+				<!-- FOOTER -->
+								<footer>
+									<span>Privacy Policy</span>
+									<span>•</span>
+									<span>Terms of Service</span>
+								</footer>
+							</div>
+						</li>
+					</ul>
 
 				</li>
 			</ul>
@@ -132,23 +136,25 @@
 
 				<!-- MAIN -->
 
-	<main>
+	<main class="container">
 		<div>
 			<img src="./app/assets/img/googlelogo_color_272x92dp.png" alt="Google">
 		</div>
+
 		<div>
 			<form>
 				<div>
 					<i class="icon-search" class="icon" >
 
 					</i>
-					<input type="search" >
+					<input type="search" name="search" id="search" >
 					<i id="icon-search-voice" class="icon" >
 
 					</i>
 				</div>
-				<input type="button" value="Google Search">
-				<input type="button" value="I'm Feeling Lucky">
+
+				<button type="submit" >Google Search</button>
+				<button type="submit" >I'm Feeling Lucky</button>
 			</form>
 		</div>
 
@@ -163,29 +169,36 @@
 
 				<!-- FOOTER -->
 
-	<footer>
+	<footer class="container">
+
 		<div>
 			<span>Nigeria</span>
 		</div>
+
 		<div>
+
 			<div>
 				<span>About</span>
 				<span>Advertising</span>
 				<span>Business</span>
 				<span>How Search works</span>
 			</div>
+
 			<div>
 				<i class="icon">
 
 				</i>
 				<span>Carbon neutral since 2007</span>
 			</div>
+
 			<div>
 				<span>Privacy</span>
 				<span>Terms</span>
 				<span>Settings</span>
 			</div>
+
 		</div>
+
 	</footer>
 
 </body>
