@@ -8,18 +8,7 @@
   visibility: none;
 }
 
-
-nav.container {
-  box-sizing: border-box;
-  background: lightgrey;
-}
-
-main.container {
-  box-sizing: border-box;
-  background: lightgrey;
-}
-
-footer.container {
+.container {
   box-sizing: border-box;
   background: lightgrey;
 }
