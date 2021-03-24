@@ -6,137 +6,137 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./app/css/reset.css">
 	<link rel="stylesheet" href="./app/css/main.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<title>Google</title>
 </head>
+
 <body>
 
 				<!-- NAVBAR -->
 
 	<header>
 		<nav class="container">
-			<ul>
-				<li><a href="#">Gmail</a></li>
 
-				<li><a href="#">Images</a></li>
+				<div class="nav-link" >
+					<a href="#">Gmail</a>
+				</div>
 
-				<li class="menu" >
+				<div class="nav-link" >
+					<a href="#">Images</a>
+				</div>
 
-					<div class="icon-navbar">
-						<img src="./app/assets/img" >
+			<div class="menu" >
+
+				<div class="icon-nav-dropdown">
+					<svg style="opacity: 0.7;" class="icon-small" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+				</div>
+
+				<div id="google-apps">
+	<!-- CONTENTS -->
+					<div class="app-dropdown" >
+
+						<div class="nav-app-dropdown">
+							<img src="./app/assets/img/" alt="" >
+							<p>Accounts</p>
+						</div>
+
+						<div class="nav-app-dropdown">
+							<img src="./app/assets/img/" alt="" >
+							<p>Search</p>
+						</div>
+
+						<div class="nav-app-dropdown">
+							<img src="./app/assets/img/" alt="" >
+							<p>Maps</p>
+						</div>
+
 					</div>
-				<!-- ----------------------------- -->
-					<ul id="google-apps">
-				<!-- CONTENT -->
-						<li>
-							<div>
+	<!-- FOOTER -->
+					<footer>
+						<div>
+							<a href="#">More from Google</a>
+						</div>
+					</footer>
 
-								<div class="app-dropdown" >
+				</div>
 
-									<div class="nav-app-dropdown">
-										<img src="./app/assets/img/" alt="" >
-										<p>Accounts</p>
-									</div>
+			</div>
 
-									<div class="nav-app-dropdown">
-										<img src="./app/assets/img/" alt="" >
-										<p>Search</p>
-									</div>
+			<div class="menu">
 
-									<div class="nav-app-dropdown">
-										<img src="./app/assets/img/" alt="" >
-										<p>Maps</p>
-									</div>
+				<div class="icon-nav-dropdown">
+					<img src="./app/assets/img/profile.png" >
+				</div>
 
-								</div>
-				<!-- FOOTER -->
-								<footer>
+				<div id="account">
+	<!-- HEADER -->
+					<header class="main-account" >
+						<div>
+							<img src="./app/assets/img/" >
+							<span id="user-profile-picture-setting">
+
+							</span>
+						</div>
+						<h3>Habib Osaye</h3>
+						<p>taiwo.osaye@gmail.com</p>
+						<span class="btn btn-round" >Manage your Google Account</span>
+					</header>
+	<!-- CONTENTS -->
+					<div class="other-accounts" >
+						<ul>
+							<li>
+								<a>
+									<img src="./app/assets/img/" >
 									<div>
-										<a href="#">More from Google</a>
+										<h5>Habib Osaye</h5>
+										<p>example@gmail.com</p>
 									</div>
-								</footer>
-
-							</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="./app/assets/img/" >
+									<div>
+										<h5>Business name</h5>
+										<p>business@gmail.com</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<li>
+							<a>
+								<img src="./app/assets/img/" >
+								<div>
+									<h5>Add another account</h5>
+								</div>
+							</a>
 						</li>
-					</ul>
-
-				</li>
-
-				<li class="menu">
-
-					<div class="icon-navbar">
-						<img src="./app/assets/img" >
 					</div>
-				<!-- ----------------------------- -->
-					<ul id="account">
-						<li>
-							<div>
-				<!-- HEADER -->
-								<header class="main-account" >
-									<div>
-										<img src="./app/assets/img/" >
-										<span id="user-profile-picture-setting">
 
-										</span>
-									</div>
-									<h3>Habib Osaye</h3>
-									<p>taiwo.osaye@gmail.com</p>
-									<span class="btn btn-round" >Manage your Google Account</span>
-								</header>
-				<!-- CONTENTS -->
-								<div class="other-accounts" >
-									<ul>
-										<li>
-											<a>
-												<img src="./app/assets/img/" >
-												<div>
-													<h5>Habib Osaye</h5>
-													<p>example@gmail.com</p>
-												</div>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<img src="./app/assets/img/" >
-												<div>
-													<h5>Business name</h5>
-													<p>business@gmail.com</p>
-												</div>
-											</a>
-										</li>
-									</ul>
-									<li>
-										<a>
-											<img src="./app/assets/img/" >
-											<div>
-												<h5>Add another account</h5>
-											</div>
-										</a>
-									</li>
-								</div>
+					<div class="logout-accounts">
+						<a>
+							<span class="btn btn-square" >Sign out of all accounts</span>
+						</a>
+					</div>
+	<!-- FOOTER -->
+					<footer>
+						<span>Privacy Policy</span>
+						<span>•</span>
+						<span>Terms of Service</span>
+					</footer>
+				</div>
 
-								<div class="logout-accounts">
-									<a>
-										<span class="btn btn-square" >Sign out of all accounts</span>
-									</a>
-								</div>
-				<!-- FOOTER -->
-								<footer>
-									<span>Privacy Policy</span>
-									<span>•</span>
-									<span>Terms of Service</span>
-								</footer>
-							</div>
-						</li>
-					</ul>
+			</div>
 
-				</li>
-			</ul>
 		</nav>
 	</header>
 
 				<!-- MAIN -->
 
-	<main class="container">
+	<main >
+		
 		<div>
 			<img src="./app/assets/img/googlelogo_color_272x92dp.png" alt="Google">
 		</div>
@@ -165,11 +165,12 @@
 			<a href="#"><span>Èdè Yorùbá</span></a>
 			<a href="#"><span>Nigerian Pidgin</span></a>
 		</div>
+
 	</main>
 
 				<!-- FOOTER -->
 
-	<footer class="container">
+	<footer class="container" style="display: none;">
 
 		<div>
 			<span>Nigeria</span>

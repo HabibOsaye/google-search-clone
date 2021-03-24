@@ -1,3 +1,12 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f2023;
+  height: 100%;
+}
+
+
 #google-apps {
   display: none;
   visibility: none;
@@ -9,6 +18,62 @@
 }
 
 .container {
-  box-sizing: border-box;
-  background: lightgrey;
+  /* background-color: #d3d3d3; */
+}
+
+
+/* -------------------------------- */
+
+
+header {
+  display: block;
+  text-decoration: none;
+  padding: 6px;
+  /* background-color: #ff0101; */
+}
+
+nav.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background: #00cde0; */
+}
+
+nav.container .nav-link a {
+  font-size: .82rem;
+  color: #1f2023;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+nav.container div:nth-child(2) {
+  padding-right: 15px;
+}
+
+.icon-nav-dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F0F0F0;
+  height: 40px;
+  width: 40px;
+  line-height: 1.5rem;
+
+  border-radius: 999px;
+}
+.menu {
+  padding: 4px;
+}
+.icon-nav-dropdown img {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+}
+
+.icon-small {
+  height: 24px;
+  width: 24px;
 }
