@@ -30,8 +30,7 @@
 			<div class="nav-item menu" >
 
 				<div class="header-dropdown">
-					<!-- <svg class="header-icon header-icon-sm" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg> -->
-					<img class="header-icon header-icon-sm" src="./app/assets/icons/apps.svg" >
+					<img class="header-icon header-icon-sm" src="./app/assets/icons/apps_black_24dp.svg" >
 				</div>
 
 				<div id="google-apps">
@@ -134,37 +133,43 @@
 		</div>
 	</header>
 
-				<!-- MAIN -->
+				<!-- SEARCH	 -->
 
-	<main >
+	<main class="main-section" >
 		
-		<div>
-			<img src="./app/assets/img/googlelogo_color_272x92dp.png" alt="Google">
+		<div class="search-img">
+			<img class="google-logo" src="./app/assets/img/googlelogo_color_272x92dp.png" alt="Google" alt="Google logo">
 		</div>
 
-		<div>
-			<form>
-				<div>
-					<i class="icon-search" class="icon" >
+		<form class="searchbar-section" >
 
-					</i>
-					<input type="search" name="search" id="search" >
-					<i id="icon-search-voice" class="icon" >
+			<div class="searchbar">
 
-					</i>
+				<div class="searchbar-btn" >
+					<img class="searchbar-icon-sm " src="./app/assets/icons/search_black_24dp.svg" >
 				</div>
 
+				<input class="searchbar-input" type="search" name="search" id="search" >
+
+				<button class="searchbar-btn voice" title="Search by voice" >
+					<img class="searchbar-icon-lg" src="app/assets/icons/voice_24dp.svg" >
+				</button>
+
+			</div>
+
+			<div class="submit-section">
 				<button type="submit" >Google Search</button>
 				<button type="submit" >I'm Feeling Lucky</button>
-			</form>
-		</div>
+			</div>
 
-		<div class="lang-options">
-			<span>Google offered in:</span>
-			<a href="#"><span>Hausa</span></a>
-			<a href="#"><span>Igbo</span></a>
-			<a href="#"><span>Èdè Yorùbá</span></a>
-			<a href="#"><span>Nigerian Pidgin</span></a>
+		</form>
+
+		<div class="lang-section">			
+			Google offered in:
+			<a href="#" aria-label="Hausa" >Hausa</a>
+			<a href="#" aria-label="Igbo" >Igbo</a>
+			<a href="#" aria-label="Èdè Yorùbá" >Èdè Yorùbá</a>
+			<a href="#" aria-label="Nigerian Pidgin" >Nigerian Pidgin</a>
 		</div>
 
 	</main>
