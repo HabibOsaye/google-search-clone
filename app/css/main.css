@@ -11,18 +11,13 @@ html, body {
   min-height: 100vh;
 }
 
-#google-apps {
-  display: none;
-  visibility: none;
+a {
+ text-decoration: none;
 }
 
-#account {
+/* .account {
   display: none;
   visibility: none;
-}
-
-/* .container {
-  background-color: #d3d3d3;
 } */
 
 
@@ -90,8 +85,120 @@ header {
   cursor: pointer;
 }
 
+
+/* APPS */
+
+
+/* Anchor for nav-content-dropdown:
+   nav-content-dropdown {position: absolute;}
+*/
+
 .menu {
   position: relative;
+  z-index: 1;
+}
+
+.nav-content-dropdown {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  top: 62px;
+  right: -40px;
+  background-color: #ffffff;
+  max-height: -webkit-calc(100vh - 62px - 100px);
+  max-height: calc(100vh - 62px - 100px);
+  /* min-width: 354px; */
+  border-radius: 8px;
+  padding: 12px 12px 12px 16px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+
+  z-index: 2;
+
+  box-shadow: 0 0 6px 2px rgba(32,33,36,.15);
+}
+
+.nav-app-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: pointer;
+
+  padding: 0;
+  margin: 0;
+}
+
+.nav-app {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  flex: 0 1 10%;
+  color: #1f2023;
+  box-sizing: border-box;
+  padding: 16px 10px 10px;
+  border-radius: 8px;
+  background-color: #e8f0fe;
+  text-decoration: none;
+
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+
+.user-app-img {
+  border-radius: 999px;
+  width: 42px;
+  height: 42px;
+}
+
+.nav-app-img {
+  height: 42px;
+  margin-bottom: 5px;
+}
+
+.nav-app-title {
+  font-size: .85rem;
+  color: #1f2023;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.1rem;
+  text-align: center;
+  width: 10ch;
+
+  overflow: hidden;
+  word-wrap: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nav-app-footer {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  padding: 0 16px;
+}
+
+.nav-app-btn {
+  display: block;
+  font-size: .85rem;
+  color: #0e5cd1;
+  line-height: 1.5rem;
+  border: 1px solid #dfe1e5;
+  padding: 12px 18px;
+  border-radius: 5px;
+  line-height: 1.1rem;
+  text-align: center;
+  max-width: 10ch;
+
+  overflow: hidden;
+  word-wrap: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 
@@ -284,4 +391,3 @@ header {
 }
 
 /* FOOTER */
-
