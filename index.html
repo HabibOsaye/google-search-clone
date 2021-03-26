@@ -143,13 +143,16 @@
 
 		<form class="searchbar-section" >
 
-			<div class="searchbar">
+			<div class="searchbar" >
 
 				<div class="searchbar-btn" >
 					<img class="searchbar-icon-sm " src="./app/assets/icons/search_black_24dp.svg" >
 				</div>
 
-				<input class="searchbar-input" type="search" name="search" id="search" >
+				<div class="searchbar-input" title="search">
+					<input results="0" type="search" name="q" id="q" >
+					<button type="reset" class="searchbar-input-btn"  aria-label="Clear search input" ><img class="searchbar-input-icon" src="./app/assets/icons/clear_black_24dp.svg" ></button>
+				</div>
 
 				<button class="searchbar-btn voice" title="Search by voice" >
 					<img class="searchbar-icon-lg" src="app/assets/icons/voice_24dp.svg" >
