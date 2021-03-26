@@ -109,6 +109,7 @@ header {
 }
 
 .searchbar-section {
+  display: block;
   width: 100%;
   max-width: 584px;
   padding-top: 1.5rem;
@@ -127,7 +128,7 @@ header {
 }
 
 .searchbar-input {
-  flex: 1 1 100%;
+  flex: 1;
   height: 100%;
   font-size: inherit;
   font-weight: 400;
@@ -232,4 +233,8 @@ header {
   text-decoration: inherit;
   color: #1a0dab;
   padding: 0 .15rem;
+}
+
+.lang-section a:hover {
+  text-decoration: underline;
 }
