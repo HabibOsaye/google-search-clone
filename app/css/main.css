@@ -644,6 +644,10 @@ header {
 	text-decoration: underline;
 }
 
+.footer-links-null:hover {
+	text-decoration: none;
+}
+
 .footer-link-icon {
 	width: 13.25px;
 	vertical-align: middle;
