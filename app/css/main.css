@@ -2,7 +2,7 @@
 *::before,
 *::after {
 	font-family: Arial, Roboto, Helvetica, sans-serif;
-	box-sizing: inherit;
+	box-sizing: border-box;
 }
 
 html,
@@ -13,7 +13,7 @@ body {
 	color: #1f2023;
 	height: 100%;
 	width: 100%;
-	box-sizing: border-box;
+	box-sizing: inherit;
 }
 
 a {
